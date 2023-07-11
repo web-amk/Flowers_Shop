@@ -3,5 +3,79 @@
 section{
     background-color: #fceef1;
     display: flex;
+    height: 540px;
+    padding: 80px;
+    position: relative;
+    
 
+
+}
+
+.banner-text {
+    width: 50%;
+    height: 300px;
+    align-items: center;
+}
+
+.heading_1{
+    font-size: 63px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.text-description{
+    font-size: 18px;
+    color: #9c9597;
+    margin: 5px;
+    
+}
+
+.btn{
+    background-color: #e55473;
+    border: none;
+    padding: 24px;
+    width: 180px;
+    height: 75px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(163, 163, 33);
+    border: 5px dashed blue;
+}
+
+.banner-img{
+    height: 620px;
+    width: 500px;
+}
+
+
+
+.main{
+
+}
+
+.flower-feature{
+    text-align: center;
+}
+
+.features-heading{
+    font-size: 50px;
+}
+
+.feature-flower-1 {
+    background-color: #f2dee7;
+}
+
+.feature-flower-2{
+    background-color: #d9eff1;
+}
+.feature-flower-3{
+    background-color: #e3ebdb;
+}
+
+.flowers-img{
+    margin: auto;
 }
