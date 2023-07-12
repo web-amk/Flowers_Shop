@@ -37,16 +37,17 @@
     background-color: #e55473;
     border: none;
     padding: 24px;
-    width: 180px;
+    width: 170px;
     height: 75px;
     color: #fff;
+    font-size:18px;
     border-radius: 6px;
     margin: 10px;
 }
 
 .btn:hover{
     background-color: rgb(163, 163, 33);
-    border: 5px dashed blue;
+    border: 4px groove blue;
 }
 
 .banner-img{
@@ -67,22 +68,6 @@
 .features-heading{
     font-size: 50px;
 }
-
-/* .feature-flower-1 {
-    background-color: #f2dee7;
-    margin: auto;
-}
-
-.feature-flower-2{
-    background-color: #d9eff1;
-    margin: auto;
-}
-.feature-flower-3{
-    background-color: #e3ebdb;
-
-} */
-
-.
 
  .flowers-img{
      display: flex;
@@ -124,7 +109,8 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: wheat;
+    background-color:#b49a69;
+    border: 3px solid blue;
   }
   .Deals h1{
     font-size: 40px;
@@ -167,7 +153,8 @@ border-radius: 20%;
     margin: 50px 200px 0;
     text-align: center;
     text-align: center;
-border-radius: 40px;
+    border-radius: 40px;
+    border: 5px solid rgb(85, 105, 85);
   }
 
   .subscribe-item{
@@ -188,12 +175,25 @@ border-radius: 40px;
     border: none;
     padding: 24px;
     width: 180px;
-    height: 55px;
+    height:60px;
     color: #fff;
     border-radius: 6px;
     margin: 10px;
     margin-top: 40px;
+    border: 4px solid #9980;
   }
+  .btn:hover{
+    background-color: #000;
+    border: 4px dashed yellow;
+  }
+
+  .subscribe-item input{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  
 
   /* footer */
 
