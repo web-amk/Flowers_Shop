@@ -1,6 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
-
-section{
+.banner{
     background-color: #fceef1;
     display: flex;
     height: 540px;
@@ -65,17 +68,144 @@ section{
     font-size: 50px;
 }
 
-.feature-flower-1 {
+/* .feature-flower-1 {
     background-color: #f2dee7;
+    margin: auto;
 }
 
 .feature-flower-2{
     background-color: #d9eff1;
+    margin: auto;
 }
 .feature-flower-3{
     background-color: #e3ebdb;
+
+} */
+
+.
+
+ .flowers-img{
+     display: flex;
 }
 
-.flowers-img{
-    margin: auto;
+.flowers-img img{
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
 }
+
+.main-pt {
+    width: 955px;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+
+  .flowers-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 74px;
+  }
+/* support */
+
+  .support {
+    background-color: wheat;
+    width: 1172px;
+    margin: 30px 190px;
+    height: 184px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  /* Deals */
+
+  .Deals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: wheat;
+  }
+  .Deals h1{
+    font-size: 40px;
+  }
+
+  /* item */
+
+  .item {
+    margin-left: 205px;
+    background: #f5deb373;
+    margin-right: 221px;
+    margin-top: 50px;
+  }
+
+  .item-text {
+    text-align: center;
+    align-items: center;
+    width: 950px;
+    padding: 50px 0 40px 0;
+  }
+
+  .item-img> img{
+        width: 259px;
+        height: 335px;
+        border: 2px solid;
+margin: 3px;
+border-radius: 20%;
+      }
+  
+
+/* Subscribe */
+.Subscribe{
+    background-image: url("Flower images/Rectangle 9.png");
+}
+
+.Subscribe {
+    background-image: url("Flower images/Rectangle 9.png");
+    height: 449px;
+    background-repeat: no-repeat;
+    margin: 50px 200px 0;
+    text-align: center;
+    text-align: center;
+border-radius: 40px;
+  }
+
+  .subscribe-item{
+    padding-top: 180px;
+
+  }
+  .subscribe-item h1{
+    font-size: 40px;
+  }
+
+  .subscribe-item input {
+    width: 523px;
+    height: 40px;
+  }
+
+  .subscribe-item> .btn{
+    background-color: #e55473;
+    border: none;
+    padding: 24px;
+    width: 180px;
+    height: 55px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 10px;
+    margin-top: 40px;
+  }
+
+  /* footer */
+
+  footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+  }
+
+   span{
+    color: #e55473;
+  }
+
